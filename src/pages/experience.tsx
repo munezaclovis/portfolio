@@ -30,7 +30,7 @@ const Experience = () => {
                     </div>
                     {experience?.liveLink ? (
                         <div className="project-cs-hero__cta">
-                            <a href="#" className="btn btn--bg" target="_blank">
+                            <a href={experience.liveLink} className="btn btn--bg" target="_blank">
                                 Live Link
                             </a>
                         </div>

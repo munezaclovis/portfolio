@@ -35,6 +35,13 @@ const Project = () => {
                             </a>
                         </div>
                     ) : null}
+                    {project?.codeLink ? (
+                        <div className="project-cs-hero__cta">
+                            <a href={project.codeLink} className="btn btn--med btn--theme-inv" target="_blank">
+                                Code Link
+                            </a>
+                        </div>
+                    ) : null}
                 </div>
             </section>
             <section className="project-details">

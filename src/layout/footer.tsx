@@ -22,7 +22,9 @@ const Footer = () => {
                     </div>
                     <div className="main-footer__row main-footer__row-2">
                         <h4 className="heading heading-sm text-lt">Clovis Muneza</h4>
-                        <p className="main-footer__short-desc">If you're reading this, Give me a job. Please</p>
+                        <p className="main-footer__short-desc">
+                            If you're reading this, it's in your best interest to hire me :)
+                        </p>
                     </div>
                 </div>
 

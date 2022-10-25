@@ -31,6 +31,7 @@ export const ProjectsData: Array<DataSkeleton> = [
                 <h3 className="project-details__content-title">Team Collaboration and division of work</h3>
             </>
         ),
+        codeLink: "",
     },
     {
         name: "apartment-manager",
@@ -41,6 +42,7 @@ export const ProjectsData: Array<DataSkeleton> = [
         technologies: ["C#", ".NET", "Javascript", "MsSql", "Bootstrap", "Visual studio", "Nuget pachage manager"],
 
         overview: <></>,
+        codeLink: "",
     },
     {
         name: "raymonds",
@@ -51,6 +53,7 @@ export const ProjectsData: Array<DataSkeleton> = [
         technologies: ["PHP", "SQL", "VsCode", "Composer", "Git"],
 
         overview: <></>,
+        codeLink: "https://github.com/munezaclovis/Raymonds",
     },
 ];
 
@@ -62,6 +65,7 @@ export const ExperienceData: Array<DataSkeleton> = [
         image: MercuriLogo,
         summary:
             "Develop visually appealing front end website architecture, including translating designer mock-ups andwireframes into front-end code with Angular and React, connect the front-end to RESTful services andAPIs developed in PHP and NodeJS with NestJS, and develop functional databases with MongoDB tosupport the back end",
+        liveLink: "https://mercuri.gg",
         technologies: [
             "NodeJS",
             "PHP",
@@ -128,6 +132,7 @@ export const ExperienceData: Array<DataSkeleton> = [
             "CSS",
             "Javascript",
         ],
+        liveLink: "https://planetrate.com",
 
         overview: (
             <>
