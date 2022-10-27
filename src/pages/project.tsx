@@ -16,7 +16,7 @@ const Project = () => {
     }, [projectName]);
 
     useLayoutEffect(() => {
-        document.documentElement.scroll(0, 0);
+        // document.documentElement.scroll(0, 0);
     }, [projectName]);
 
     return (

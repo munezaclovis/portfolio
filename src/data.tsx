@@ -4,6 +4,7 @@ import ApartmentManagerLogo from "./assets/png/apartment-manager.png";
 import ECommerceLogo from "./assets/png/ecommerce.png";
 import MercuriLogo from "./assets/png/mercuri.png";
 import PlanetRateLogo from "./assets/jpeg/planetrate.jpg";
+import { Link } from "react-router-dom";
 
 export type DataSkeleton = {
     name: string;
@@ -156,8 +157,67 @@ export const ProjectsData: Array<DataSkeleton> = [
             "A PHP framework for building full stack and RESTful web applications written from scratch with PHP and some of the modern PHP libraries found on packagist",
         technologies: ["PHP", "SQL", "VsCode", "Composer", "Git"],
 
-        overview: <></>,
         codeLink: "https://github.com/munezaclovis/Raymonds",
+        overview: (
+            <>
+                <p className="project-details__desc-para">
+                    A super simple custom MVC framework structured for readability and maintainability. As well as
+                    mostly just learning purposes for my improvement.
+                </p>
+                <p className="project-details__desc-para">
+                    This project stemmed from a rough attempt to making an MVC framework which can be found{" "}
+                    <a
+                        href="https://github.com/munezaclovis/carter-mvc"
+                        style={{ textDecoration: "underline", color: "#0062b9" }}
+                        target="_blank"
+                    >
+                        here
+                    </a>
+                    . I made this framework just so I could learn more about MVC pattern, then after learning more about
+                    MVC in college with C#, I attempted to make a better one, which is this one. I then later discovered
+                    Laravel which is the biggest and best PHP framework in my opinion, so I ended up abandoning the
+                    project.
+                </p>
+                <p className="project-details__desc-para">
+                    I still got what I wanted though, which was learning more about MVC and system design.
+                </p>
+                <h3 className="project-details__content-title">Features</h3>
+                <ol type="a" className="project-details__desc-para">
+                    <li>
+                        <span>Structured layout</span>
+                    </li>
+                    <li>
+                        <span>MVC Pattern</span>
+                    </li>
+                    <li>
+                        <span>User Authentication with sessions and cookies</span>
+                    </li>
+                    <li>
+                        <span>Custom ORM with query builder</span>
+                    </li>
+                    <li>
+                        <span>HTML templeting with Twig</span>
+                    </li>
+                    <li>
+                        <span>Yaml, Json and .env config variaties</span>
+                    </li>
+                    <li>
+                        <span>
+                            Simple routing functionalities with dependency injection using the built-in Reflector class
+                        </span>
+                    </li>
+                    <li>
+                        <span>Middlewares to intercept requests or responses</span>
+                    </li>
+                    <li>
+                        <span>Uses PHP strict types</span>
+                    </li>
+                    <li>
+                        <span>different SQL drivers</span>
+                    </li>
+                </ol>
+            </>
+        ),
     },
 ];
 
