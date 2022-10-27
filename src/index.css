@@ -39,8 +39,11 @@ a {
     text-decoration: none;
     color: inherit;
 }
-li {
+ul > li {
     list-style: none;
+}
+ol {
+    margin-inline-start: 40px !important;
 }
 input:focus,
 button:focus,
